@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: rgb(250, 250, 250);
+    font-family: 'Lora', serif;
+    color:  rgb(70, 137, 224);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h1, h2, h3, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: lightslategray;
+}
+
+h2{
+    color: darkcyan;
+    font-weight: lighter;
+    font-weight: 500;
+}
+
+a{
+    color: deepskyblue;
+    font-weight: 900;
+    text-decoration: none;
+    transition: 2s;
+}
+a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+
+/* Custom design with class (99% of your design) */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+  
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+      .container {
+      width: 300px;
+    }
+}
+
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+  }
+
+.btn-blue:hover {
+    background-color: black;
+    color: white;
+}
